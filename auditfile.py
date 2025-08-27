@@ -3,6 +3,12 @@ import sqlite3
 import pandas as pd
 from datetime import datetime
 from config import DB_PATH
+from datetime import datetime
+import pytz
+
+def get_ist_time():
+    ist = pytz.timezone("Asia/Kolkata")
+    return datetime.now(ist).strftime("%Y-%m-%d %H:%M:%S")
 
 def ensure_audit_table():
     with sqlite3.connect(DB_PATH) as conn:
@@ -31,7 +37,7 @@ def log_audit(patient_id, treatment_name, icd10_code, provider_npi,
             (timestamp, patient_id, treatment_name, icd10_code, provider_npi, rule_status, proof_status, final_decision)
             VALUES (?, ?, ?, ?, ?, ?, ?, ?)
         """, (
-            datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+            get_ist_time(),
             patient_id or "",
             treatment_name or "",
             icd10_code or "",
