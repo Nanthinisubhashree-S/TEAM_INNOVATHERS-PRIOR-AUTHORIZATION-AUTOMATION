@@ -69,13 +69,3 @@ streamlit run homepage.py
 - Maintains timestamped audit trails for compliance.
 
 ---
-
-## Links
-
-- [Project Homepage](https://github.com/yourusername/prior-authorization-automation)
-- [Streamlit App](link-to-your-streamlit-app)
-- [Documentation](link-to-detailed-documentation)
-- [YOLOv7 Model Documentation](link-to-yolov7-docs)
-- [LLM Model Documentation](link-to-llm-docs)
-
----
