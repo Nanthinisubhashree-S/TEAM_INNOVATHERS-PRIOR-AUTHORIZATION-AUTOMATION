@@ -81,17 +81,3 @@ streamlit run homepage.py
 - [LLM Model Documentation](link-to-llm-docs)
 
 ---
-
-## Help
-
-If you need help, check out:
-
-- [Issues](https://github.com/yourusername/prior-authorization-automation/issues) for bug reports and feature requests
-- [Discussion Forum](link-to-discussions) for questions and community support
-- [Contact the Maintainers](mailto:your-email@example.com)
-
----
-
-## License
-
-[MIT](LICENSE)
