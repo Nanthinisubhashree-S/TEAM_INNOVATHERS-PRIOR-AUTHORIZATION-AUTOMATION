@@ -1,8 +1,6 @@
 # TEAM_INNOVATHERS-PRIOR-AUTHORIZATION-AUTOMATION
 Documentation on Prior Authorization Automation Project
 
-# TEAM_INNOVATHERS – Prior Authorization Automation
-
 ## Overview
 
 The Prior Authorization Automation system streamlines approval for prior authorization (PA) requests from hospitals and healthcare providers. It validates PA requests using rule-based verification, document analysis (lab reports or X-ray images), and AI-driven decision-making to ensure quick, consistent, and accurate authorization decisions.
